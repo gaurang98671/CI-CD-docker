@@ -1,0 +1,22 @@
+{
+  "name": "ci-cd-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "srrver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurang98671/CI-CD-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaurang98671/CI-CD-docker/issues"
+  },
+  "homepage": "https://github.com/gaurang98671/CI-CD-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
