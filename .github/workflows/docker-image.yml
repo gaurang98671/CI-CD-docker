@@ -15,7 +15,8 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag gaurang98671/actions-test-app
     - name: Run application
-      run: docker run gaurang98671/actions-test-app
+    - run: npm install
+    - run: node server.js
     - name: Login to docker
       env:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
